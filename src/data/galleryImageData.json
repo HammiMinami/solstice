@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "imageUrl": "/asset/gallery-img-1.png",
+    "imageAlt": "Balanced stone rock tower sculpture landscape at dusk"
+  },
+  {
+    "id": 2,
+    "imageUrl": "/asset/gallery-img-2.png",
+    "imageAlt": "Two happy smiling women walking a bicycle outside in a meadow park"
+  },
+  {
+    "id": 3,
+    "imageUrl": "/asset/gallery-img-3.png",
+    "imageAlt": "Colorful hot air balloons floating low over river valley tree forest"
+  },
+  {
+    "id": 4,
+    "imageUrl": "/asset/gallery-img-4.png",
+    "imageAlt": "Senior romantic couple hugging outside while looking at nature field view"
+  }
+]

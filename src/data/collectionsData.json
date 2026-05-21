@@ -1,0 +1,41 @@
+[
+  {
+    "id": "horizon",
+    "tagline": "Homes from the $700s",
+    "title": "HORIZON COLLECTION",
+    "specs": {
+      "sqFt": "1,832-3,215",
+      "beds": "2-4",
+      "baths": "2.5-3.5"
+    },
+    "description": "The ease of ranch-style living is elegantly imagined in these new offerings from the Horizon Collection by Shea Homes at Solstice. The designs range from 1,832 to 3,215 square feet, with gracious kitchens opening onto casual dining areas, and optional covered patios providing additional entertaining space outdoors.",
+    "imageUrl": "/asset/collection-1.png",
+    "imageAlt": "Exterior view of modern white farmhouse ranch styled home with sleek siding and dark roof under a sunset sky"
+  },
+  {
+    "id": "reflection",
+    "tagline": "Homes from the $800s",
+    "title": "REFLECTION COLLECTION",
+    "specs": {
+      "sqFt": "2,369-4,022",
+      "beds": "2-4",
+      "baths": "2.5-4.5"
+    },
+    "description": "These open-concept ranch home designs seamlessly flow from room to room and from inside to out. The Reflection Collection from Shea Homes at Solstice offers six new floorplans from 2,369–4,022 square feet, with airy spaciousness and natural light at nearly every turn.",
+    "imageUrl": "/asset/collection-2.png",
+    "imageAlt": "Exterior view of modern blue single-story home with a wide lit storefront display windows and warm porch light"
+  },
+  {
+      "id": "luminary",
+      "tagline": "Homes from the $900s",
+      "title": "LUMINARY COLLECTION",
+      "specs": {
+        "sqFt": "3,100-4,500",
+        "beds": "3-5",
+        "baths": "3.5-5"
+      },
+      "description": "Experience elevated luxury tailored with signature expansive windows, majestic ceilings, and refined modern architectural styling built for grand entertaining.",
+      "imageUrl": "/asset/banner-left-down.png"
+    }
+]
+

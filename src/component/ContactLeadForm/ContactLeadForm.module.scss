@@ -1,0 +1,130 @@
+.formSection {
+    background-color: var(--cultured);
+    padding: 60px 0;
+
+    h2 {
+        color: var(--shadow);
+        font-family: var(--font-family-inter);
+        font-size: 24px;
+        font-weight: var(--regular);
+        letter-spacing: 1px;
+        line-height: 32px;
+        margin: 15px 0 5px;
+        text-align: center;
+        text-transform: uppercase;
+
+        @media (min-width: 768px) {
+            font-size: 28px;
+        }
+    }
+}
+
+.formGroup {
+    margin-bottom: 1.5rem;
+    max-width: 1000px;
+
+    label {
+        color: var(--shadow);
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    input,
+    select,
+    textarea {
+        border-radius: 0px;
+        border: 1px solid var(--shadow);
+        color: var(--shadow);
+        font-family: var(--font-family-inter);
+        font-size: 1rem;
+        padding: 0.75rem;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+
+        ::placeholder {
+            color: var(--shadow);
+            opacity: 1;
+        }
+
+        &:focus {
+            border-color: var(--shadow);
+            box-shadow: 0 0 0 0.2rem rgba(249, 167, 16, 0.25);
+            color: var(--shadow);
+        }
+
+        &.isInvalid {
+            background-color: var(--white);
+            border-color: var(--rusty-red);
+            ;
+
+            &:focus {
+                border-color: var(--rusty-red);
+                ;
+                box-shadow: 0 0 0 0.2rem rgba(238, 20, 4, 0.25);
+            }
+        }
+    }
+
+}
+
+
+
+.invalidFeedback {
+    color: var(--rusty-red);
+    ;
+    display: block;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+}
+
+.successMessage {
+    color: var(--shadow);
+    font-size: 14px;
+    font-weight: var(--light);
+    letter-spacing: 0px;
+    line-height: 1.65;
+    text-align: center;
+
+    @media (min-width: 768px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.successPanel {
+    margin-top: 1rem;
+}
+
+.errorMessage {
+    background-color: var(--pale-pink);
+    border-radius: 6px;
+    border: 1px solid var(--baby-pink);
+    color: var(--rusty-red);
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.submitBtn {
+
+    background-color: var(--mustard-brown);
+    border: none;
+    color: var(--white);
+    padding: 0.65rem 2rem;
+    transition: all 0.2s ease-in-out;
+
+    font-family: var(--font-family-lato);
+    font-size: 13px;
+    font-weight: var(--regular);
+    letter-spacing: 1px;
+    line-height: 17px;
+    margin: 0 auto;
+    text-align: center;
+    width: 200px;
+
+    &:hover,
+    &:active {
+        background-color: var(--ph-gold);
+        color: var(--white);
+        transform: translateY(-1px);
+    }
+
+}

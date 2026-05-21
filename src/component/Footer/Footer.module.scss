@@ -1,0 +1,71 @@
+.footerContainer {
+    overflow: hidden;
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        padding-bottom: 4.5rem;
+        padding-top: 5rem;
+    }
+}
+
+.footerContent {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.brandingBlock {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2.5rem !important;
+}
+
+.subBrand {
+    color: var(--deep-taupe);
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+
+    em {
+        font-family: var(--font-family-inter);
+        font-style: italic;
+    }
+}
+
+.legalText {
+    color: var(--deep-taupe);
+    font-family: var(--font-family-inter);
+    font-size: 10px;
+    font-weight: var(--light);
+    letter-spacing: 0%;
+    line-height: 17px;
+    text-align: center;
+}
+
+.accessibilityText {
+    color: var(--deep-taupe);
+    font-family: var(--font-family-inter);
+    font-size: 10px;
+    font-weight: var(--light);
+    letter-spacing: 0%;
+    line-height: 17px;
+    text-align: center;
+
+    a {
+        color: var(--deep-taupe);
+    }
+
+}
+
+.footerLink {
+    color: var(--deep-taupe);
+    text-decoration: underline;
+    transition: color 0.15s ease-in-out;
+
+    &:hover {
+        color: var(--mustard-brown);
+        text-decoration: underline;
+    }
+}

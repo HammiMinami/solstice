@@ -1,0 +1,70 @@
+.heroSection {
+    margin-bottom: 2em;
+    overflow: hidden;
+    width: 100%;
+
+    @media (min-width: 768px) {
+        margin-bottom: 5em;
+    }
+}
+
+.imagePanel {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.topLeft {
+    background-image: url('/asset/banner-left-up.png');
+    height: 600px;
+    max-height: 200px;
+    padding: 20%;
+
+    @media (min-width: 768px) {
+        max-height: 400px;
+    }
+
+    @media (min-width: 1200px) {
+        max-height: 500px;
+    }
+}
+
+.bottomLeft {
+    background-image: url('/asset/banner-left-down.png');
+    height: 300px;
+    max-height: 120px;
+
+    @media (min-width: 768px) {
+        max-height: 200px;
+    }
+
+    @media (min-width: 1200px) {
+        max-height: 300px;
+    }
+}
+
+.rightColumn {
+    background-image: url('/asset/banner-right.png');
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+    max-height: 320px;
+
+    @media (min-width: 768px) {
+        max-height: 600px;
+    }
+
+    @media (min-width: 1200px) {
+        max-height: 800px;
+    }
+}
+
+.logoIcon {
+    bottom: 20%;
+    height: 200px;
+    position: relative;
+    width: 350px;
+}
